@@ -1,13 +1,11 @@
 package LaevadePommitamine;
 
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.HashMap;
 
 /**
  * Created by Kristiina on 30.10.2015.
  */
-public class Example {
+public class LaevadePommitamine {
     static int[][] laud; //Kui static, siis saab main-meetodi all kasutada (static sees), kui pole, siis ei saa
 
     public static void main(String[] args) {
@@ -37,13 +35,7 @@ public class Example {
     }
 
     private static void generateTable() {
-        HashMap a = new HashMap();
-        a.put("Toomas", 5);
-        a.put("Eva", 5);
-        System.out.println(a.toString());
+
 
     }
-
-
-
 }
